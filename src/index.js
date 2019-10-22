@@ -1,14 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import styled from "styled-components";
 import "./styles.css";
 
 import Box from "./Box";
 import Flexbox from "./Flexbox";
-
-const Button = styled.button`
-  color: red;
-`;
+import Button from "./Button";
 
 function App() {
   return (
