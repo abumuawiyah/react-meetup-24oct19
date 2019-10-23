@@ -25,6 +25,12 @@ const StyledBox = styled.div`
     css`
       margin: ${props.m};
     `}
+
+  ${props =>
+    props.bgColor &&
+    css`
+      background-color: ${props.bgColor};
+    `}
 `;
 
 function Box({ children, ...others }) {
