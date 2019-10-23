@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-      <Box p="10px" m="50px 50px">
+      <Box as={"section"} p="10px" m="50px 50px">
         <Button>Test</Button>
       </Box>
 
