@@ -12,11 +12,16 @@ const StyledButton = styled.button`
   ${props =>
     props.primary &&
     css`
-      background: palevioletred;
+      background: ${props => props.theme.palette.primary};
       color: white;
     `}
 
-  ${props => console.log(props.theme)}
+  ${props =>
+    props.secondary &&
+    css`
+      border: 2px solid palevioletred;
+      color: palevioletred;
+    `}
 `;
 
 function Button({ children, ...others }) {

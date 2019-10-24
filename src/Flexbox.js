@@ -22,6 +22,12 @@ const StyledFlexbox = styled(Box)`
     css`
       align-items: ${props.alignItems};
     `}
+
+  ${props =>
+    props.flexBasis &&
+    css`
+      flex-basis: ${props.flexBasis};
+    `}
 `;
 
 function Flexbox({ children, ...others }) {

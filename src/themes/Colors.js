@@ -1,6 +1,8 @@
 const Colors = {
-  primary: "rebeccapurple",
-  white: "white"
+  primary: "palevioletred",
+  white: "white",
+  green: "#25b34b",
+  yellow: "papayawhip"
 };
 
 export default Colors;
