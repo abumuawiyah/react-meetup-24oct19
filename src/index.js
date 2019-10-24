@@ -7,6 +7,11 @@ import Flexbox from "./Flexbox";
 import Button from "./Button";
 
 function App() {
+  const btnStyles = `
+    font-size: 14px;
+    height: 42px;
+  `
+
   return (
     <div className="App">
       <MyThemeProvider>
@@ -33,7 +38,7 @@ function App() {
         >
           I am content inside Flexbox
           <Flexbox>
-            <Button secondary>I am styled button</Button>
+            <Button secondary css={btnStyles}>I am styled button</Button>
             <Button primary>I am styled button</Button>
           </Flexbox>
         </Flexbox>
