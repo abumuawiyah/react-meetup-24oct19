@@ -16,6 +16,9 @@ function App() {
           m="50px 50px"
           bgColor="papayawhip"
           h={"100px"}
+          css={`
+            display: none;
+          `}
         >
           I am Box that's rendered as Section
         </Box>
